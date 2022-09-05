@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+ <html style="background-color: bisque;">
+  <head>
+  <title>STUDENT REGISTRATION FORM</title>
+  </head>
+  <body>
+   <h3 align="center">STUDENT REGISTRATION FORM</h3>
+   <table style="color:blue" align="center" cellpadding="15" width="200" height="500" border="">
+   <tr>
+    <td>FIRST NAME</td>
+    <td><input type="text" name"first_name" maxlength="30"/>
+    </td>
+    </tr>
+    <tr>
+    <td>LAST NAME</td>
+    <td><input type="text" name="lastname" maxlenght="30"/>
+    </td>
+    </tr>
+   <tr>
+   <td>Email</td>
+   <td><input type="email" name="email"/>
+   </td>
+   </tr>
+
+    <tr>
+    <td>DATE OF BIRTHDAY</td>
+     
+    <td>
+    <select name="Birthday_day" id="Birthday_day">
+    <option value="-1">Day:</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9"></option>
+    <option value="10">10</option>
+     </select>
+    
+    <select name="Bithday_month" name="Bithday_month">
+    <option value="-1">month:</option>
+    <option value="january">jan</option>
+    <option value="february">feb</option>
+    <option value="march">mar</option>
+    <option value="april">apr</option>
+     <option value="may">may</option>
+    <option value="june">jun</option>
+    <option value="july">jul</option>
+    <option value="august">agu</option> 
+     <option value="september">sep</option>
+    <option value="october">oct</option>
+    <option value="november">nov</option>
+    <option value="december">dec</option> 
+    </select> 
+   
+   <select name="Birthday_year" id="birthday_year">
+   <option value="-1">year:</option> 
+   <option value="2022">2022</option> 
+   <option value="2021">2021</option>
+   <option value="2020">2020</option>
+   <option value="2019">2019</option>
+   <option value="2018">2018</option>
+   <option value="2017">2017</option>
+   <option value="2016">2016</option>
+   <option value="2015">2015</option>
+   <option value="2014">2014</option>
+   <option value="2013">2013</option>
+   <option value="2012">2012</option>
+   <option value="2011">2011</option>
+   <option value="2010">2010</option>
+   <option value="2009">2009</option> 
+  </select>
+  </td>
+  </tr>
+  
+  <tr>
+  <td>MOBILE NUMBER</td>
+   <td>
+  <input type=text name=mobile_number maxlength="10">
+   </td>
+   </tr><br>
+     
+  <tr>
+   <td>Gender</td>
+   <td>
+  male <input type="radio" name="gender" value="male"/>
+  female <input type="radio" name="gender" value="female"/>
+   </td>
+   </tr>
+ 
+   <tr>
+   <td>Address<br> <br> <br></td>
+  <td><textarea name="Address" row="4" cols="30">
+  </textarea>
+  </td>
+   </tr>
+
+  <tr>
+  <td>City</td>
+  <td><input type="text" name="city"  maxlength="30"/>
+   </td>
+   </tr>
+
+    <tr>
+<td> Pin_code</td>
+   <td><input type="text" name="pin_code" maxlength="7"/>
+   </td>
+   </tr>
+   <tr>
+    <td>State</td>
+   <td><input type="text" name="state" maxlength="29"/>
+   </td>
+   </tr>
+     <td>Country</td>
+   <td><input type="text" name="country" value="indian"/>
+   </td>
+   </tr>
+   <tr>
+   <td>HOBBIES</td><br>
+    <td>
+   Drawing
+   
+   <input type="checkbox" name="hobby_drawing" value="drawing">
+    Singing
+   
+   <input type="checkbox" name="hobby_singing" value="Singing">
+    dancing
+   
+   <input type="checkbox" name="hobby_dancing" value="dancing">
+    otherbox
+   
+   <input type="checkbox" name="hobby_otherbox" value="other">
+  <input type="text" name="other_hobby" maxlength="30">
+   </td>
+ 
+   <tr>
+   <td>Qualification<br><br><br><br></td>
+
+   <td>
+   <table>
+
+    <tr>
+   <td align="center"><b>S1.No.</b></td>
+   <td align="center"><b>Examination</b></td>
+   <td align="center"><b>Board</b></td>
+   <td align="center"><b>precentage</b></td>
+   <td align="center"><b>year of passing</b></td>
+   </tr>
+  
+    <tr>
+   <td>1</td>
+   <td>class X</td>
+   <td><input type="text" name="classx_board" maxlength="30"/></td>
+   <td><input type="text" name="classx_precentage" maxlength="30"/></td>
+   <td><input type="text" name="classx_year of passing"maxlength="30"/></td>
+  </tr> 
+ 
+   <tr>
+   <td>2</td>
+   <td>class XII</td>
+   <td><input type="text" name="classxii_board" maxlength="30"/></td>
+   <td><input type="text" name="classii_precentage" maxlength="30"/></td>
+   <td><input type="text" name="classxii_year of passing"maxlength="30"/></td>
+  </tr> 
+   
+   <tr>
+   <td>3</td>
+   <td>graduation</td>
+   <td><input type="text" name="graduation_board" maxlength="30"/></td>
+   <td><input type="text" name="graduation_precentage" maxlength="30"/></td>
+   <td><input type="text" name="graduation_year of passing"maxlength="30"/></td>
+  </tr>
+   
+    <tr>
+   <td>4</td>
+   <td>master</td>
+   <td><input type="text" name="master_board" maxlength="30"/></td>
+   <td><input type="text" name="master_precentage" maxlength="30"/></td>
+   <td><input type="text" name="master_year of passing"maxlength="30"/></td>
+  </tr> 
+
+  <tr>
+  <td></td>
+  <td></td>
+  <td align="center">(10 char max)</td><br>
+  <td align="align">(upto 2 decimal)</td>
+  </tr>
+ </table>
+
+  </td> 
+  </tr>
+  
+  <tr>
+  <td>Course<br>apply for</td>
+  <td>
+  BCA
+  <input type="radio" name="course_bca" value="BCA">
+  B.COM 
+   <input type="radio" name="course_bca" value="B.COM">
+  B.A
+    <input type="radio" name="course_bca" value="B.A">
+
+
+  </td>
+  </tr>
+    </table>
+
+  </body>
+  </html>
+  
+  
+     
